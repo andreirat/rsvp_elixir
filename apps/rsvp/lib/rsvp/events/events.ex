@@ -6,13 +6,15 @@ defmodule Rsvp.Events do
   schema "events" do
     field :title, :string
     field :location,  :string
+    field :description,  :string
     field :date,  :naive_datetime
+    field :quantity_available, :integer, default: 25
 
     timestamps()
   end
 
-  @fields ~w(title location date)a
-  @required ~w(date)a
+  @fields ~w(title location date description)a
+  @required ~w(date title location)a
 
   def changeset(data, params \\ %{}) do
     data

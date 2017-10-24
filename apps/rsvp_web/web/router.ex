@@ -9,16 +9,29 @@ defmodule RsvpWeb.Router do
     plug :put_secure_browser_headers
   end
 
+  pipeline :authorized do
+    plug :browser
+    plug RsvpWeb.AuthorizedPlug
+  end
+
   pipeline :api do
     plug :accepts, ["json"]
   end
 
   scope "/", RsvpWeb do
     pipe_through :browser # Use the default browser stack
-
     get "/", PageController, :index
-    get "events", EventController, :list
+
+    # Events routes
+    get "/events", EventController, :list
+    get "/events/new", EventController, :create
+    post "/events/new", EventController, :add
     get "/events/:id", EventController, :show
+    post "/events/:id/reserve", EventController, :reserve
+    # Login routes
+    get "/login", LoginController, :index
+    post "/login", LoginController, :login
+
   end
 
   # Other scopes may use custom stacks.

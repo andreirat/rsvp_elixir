@@ -1,0 +1,21 @@
+{
+  "name": "rsvp_web",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Andrei Rat <andrei.rat@around25.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/andreirat/rsvp_elixir",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
+}
