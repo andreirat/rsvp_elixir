@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="878dcd0b-299c-45a0-91e4-377fb7b03c18" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Procfile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/rsvp/config/dev.exs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/rsvp/config/prod.exs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phoenix_static_buildpack.config" />
-    </list>
+    <list default="true" id="878dcd0b-299c-45a0-91e4-377fb7b03c18" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -170,9 +165,9 @@
         <option value="$PROJECT_DIR$/phoenix_static_buildpack.config" />
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/apps/rsvp_web/config/prod.exs" />
-        <option value="$PROJECT_DIR$/apps/rsvp/config/prod.exs" />
         <option value="$PROJECT_DIR$/apps/rsvp/config/config.exs" />
         <option value="$PROJECT_DIR$/apps/rsvp/config/dev.exs" />
+        <option value="$PROJECT_DIR$/apps/rsvp/config/prod.exs" />
       </list>
     </option>
   </component>
@@ -506,12 +501,12 @@
       <workItem from="1508742023491" duration="14000" />
       <workItem from="1508742238842" duration="12795000" />
       <workItem from="1508767179637" duration="16912000" />
-      <workItem from="1508844095127" duration="2000" />
+      <workItem from="1508844095127" duration="61000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31147000" />
+    <option name="totallyTimeSpent" value="31206000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1306" y="-112" width="1306" height="1080" extended-state="0" />
